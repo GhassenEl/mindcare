@@ -15,10 +15,10 @@ Application web **React + Node.js** pour suivre l’humeur, l’anxiété, l’�
 
 ## Fonctionnalités
 
-- Check-in quotidien (humeur / anxiété / énergie / sommeil)
-- Tableau de bord + tendances 7 jours + alertes
-- Chatbot MindBot (anxiété, tristesse, sommeil, crise…)
-- Option `OPENAI_API_KEY` pour réponses GPT
+- Check-in enrichi : humeur, anxiété, énergie, **stress**, **focus**, **social**, **motivation**, sommeil + tags
+- **KPI** : score bien-être /100, streak, régularité, volatilité, dette de sommeil, risque, deltas vs semaine N-1
+- Sparkline tendance 7 jours, meilleur/pire jour, recommandations
+- Chatbot MindBot (règles locales + OpenAI optionnel)
 
 ## Lancer
 

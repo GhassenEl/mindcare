@@ -1,0 +1,52 @@
+{
+  "checkins": [
+    {
+      "id": "c4cfab75-1860-4490-b5a4-d4e724ffa2b5",
+      "mood": 4,
+      "anxiety": 2,
+      "energy": 3,
+      "sleepHours": 7,
+      "note": "Premier check-in",
+      "tags": [],
+      "createdAt": "2026-07-13T14:30:43.420Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "9039a2be-44f0-4981-858c-1ba37cdbefd9",
+      "role": "user",
+      "text": "Bonjour, je me sens un peu stresse",
+      "createdAt": "2026-07-13T14:30:43.490Z"
+    },
+    {
+      "id": "62bea044-d4e3-4708-a45c-a94735b13535",
+      "role": "assistant",
+      "text": "Bonjour. Je suis MindBot, votre compagnon d’écoute MindCare. Comment vous sentez-vous aujourd’hui ?",
+      "intent": "greeting",
+      "tips": [
+        "Faites un check-in d’humeur",
+        "Respirez lentement 1 minute"
+      ],
+      "crisis": false,
+      "createdAt": "2026-07-13T14:30:43.491Z"
+    },
+    {
+      "id": "59f6636b-e8c0-4ef0-b118-036ca09cbfb6",
+      "role": "user",
+      "text": "Bonjour, je me sens stresse et anxieux",
+      "createdAt": "2026-07-13T14:31:31.207Z"
+    },
+    {
+      "id": "b7c35b96-2b0d-48b3-a08d-d838c1b210fb",
+      "role": "assistant",
+      "text": "Bonjour. Je suis MindBot, votre compagnon d’écoute MindCare. Comment vous sentez-vous aujourd’hui ?",
+      "intent": "greeting",
+      "tips": [
+        "Faites un check-in d’humeur",
+        "Respirez lentement 1 minute"
+      ],
+      "crisis": false,
+      "createdAt": "2026-07-13T14:31:31.210Z"
+    }
+  ]
+}
