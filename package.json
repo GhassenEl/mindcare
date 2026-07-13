@@ -1,0 +1,15 @@
+{
+  "name": "mindcare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MindCare — suivi santé mentale + chatbot IA (React + Node)",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:api": "npm run dev --prefix backend",
+    "dev:web": "npm run dev --prefix frontend",
+    "start": "npm run install:all && concurrently \"npm run dev:api\" \"npm run dev:web\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
