@@ -85,7 +85,13 @@ const CRISIS_REPLY = {
 function localReply(message, ctx = {}) {
   if (CRISIS_PATTERNS.test(message)) return CRISIS_REPLY;
 
-  for (const intent of INTENTS) {
+  // Priorité aux intentions émotionnelles avant le salut générique
+  const prioritized = [
+    ...INTENTS.filter((i) => i.id !== 'greeting'),
+    ...INTENTS.filter((i) => i.id === 'greeting'),
+  ];
+
+  for (const intent of prioritized) {
     if (intent.test.test(message)) {
       return {
         intent: intent.id,
